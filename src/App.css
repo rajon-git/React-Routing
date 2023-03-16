@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.header a{
+  text-decoration: none;
+  margin-right: 12px;
+}
+.countries-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+
+}
+.country{
+  margin: 35px;
+  padding: 21.2px;
+  background-color: bisque;
+}
+.coutry img{
+  width: 150px;
+}
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
